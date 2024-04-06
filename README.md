@@ -31,11 +31,7 @@ $ pip install -r requirements.txt
 ```
 $ python manage.py makemigrations
 $ python manage.py migrate
-
-The perform migrations on each service individually.
-The order is mentioned below:
-	>>> BlogPost
-	>>> Comment      
+    
 ```
 
 ### Create super admin user
@@ -58,6 +54,4 @@ $ python3 manage.py runserver
 [    http://localhost:8000/app/
 ](    http://localhost:8000/app/
 )
-# Blog_post
-# blog_backend
-# blog_backend
+
